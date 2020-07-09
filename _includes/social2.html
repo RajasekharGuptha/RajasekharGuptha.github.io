@@ -1,0 +1,2 @@
+{%- if site.youtube_username -%}<a style="color: cornsilk;" href="https://youtube.com/channel/{{ site.youtube_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg> <span class="username">Youtube</span></a>{%- endif -%}
+{%- if site.rss -%}<a style="color: cornsilk; padding-left: 10px; " href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>RSS Feed</span></a>{%- endif -%}
