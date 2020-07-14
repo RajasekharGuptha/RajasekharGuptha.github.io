@@ -64,6 +64,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 social:
   name: Rajasekhar Guptha
