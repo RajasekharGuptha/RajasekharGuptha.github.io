@@ -1,9 +1,7 @@
 {
-	"folders": [
-		{
-			"name": "RajasekharGuptha.github.io",
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
