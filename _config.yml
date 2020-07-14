@@ -26,7 +26,7 @@ email: rajasekharguptha.in@example.com
 tagline: Log of Programming Blogs
 subtitle: Log of Programming Blogs
 repository: RajasekharGuptha/RajasekharGuptha.github.io
-logo: assets/images/logo_dark.png
+logo: "assets/images/logo_dark.png"
 description: >- # this means to ignore newlines until "baseurl:"
   𝑩𝒍𝒐𝒈.𝒍𝒐𝒈 is where you can find Blogs related to Jekyll,Git,Github,Android Development,Programming Languages,Tech and lot more.. 
 baseurl: "" # the subpath of your site, e.g. /blog
