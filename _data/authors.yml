@@ -1,0 +1,25 @@
+Rajasekhar Guptha:
+  name        : "Rajasekhar Guptha"
+  bio         : "Android Developer"
+  avatar      : "/assets/Rajasekhar Guptha.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rajasekharguptha.in@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://rajasekharguptha.github.io"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram-square"
+      url: "https://www.instagram.com/rajasekhar_24/"
+    - label: "Github"
+      icon:  "fab fa-fw fa-github"
+      url: "https://github.com/RajasekharGuptha"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@rajasekharmuppidi4"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rajasekharguptha/"
+
+      

@@ -18,25 +18,93 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Rajasekhar Guptha
+title: Blog.log
+name: 𝑩𝒍𝒐𝒈.𝒍𝒐𝒈
+title_separator: "|"
 author: Rajasekhar Guptha
-email: rajasekharmuppidi4@example.com
+email: rajasekharguptha.in@example.com
+tagline: Log of Programming Blogs
+subtitle: Log of Programming Blogs
+repository: RajasekharGuptha/RajasekharGuptha.github.io
+logo: assets\images\logo_dark.png
 description: >- # this means to ignore newlines until "baseurl:"
-  Enjoy & support Peer Blogs
+  𝑩𝒍𝒐𝒈.𝒍𝒐𝒈 is where you can find Blogs related to Jekyll,Git,Github,Android Development,Programming Languages,Tech and lot more.. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rajasekharguptha.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+teaser: assets/images/logo_white.png
 
 github_username:  RajasekharGuptha
-linkedin_username: rajasekhar-guptha-99735219b
-youtube_username: UCF8fuoTagtxa5b23EFg4kZA
+linkedin_username: rajasekharguptha
 instagram_username: rajasekhar_24
+medium_username: "@rajasekharmuppidi4"
 rss: rss
 
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      toc: true
+      toc_label: Key Points
+      toc_sticky: true
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+social:
+  name: Rajasekhar Guptha
+  links:
+    - https://www.instagram.com/rajasekhar_24/
+    - https://www.linkedin.com/in/rajasekhar-guptha-99735219b
+    - https://github.com/RajasekharGuptha
+    - https://www.youtube.com/channel/UCF8fuoTagtxa5b23EFg4kZA
+    - https://medium.com/@rajasekharmuppidi4
+
+footer:    
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://rajasekharguptha.github.io"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram-square"
+      url: "https://www.instagram.com/rajasekhar_24/"
+    - label: "Github"
+      icon:  "fab fa-fw fa-github"
+      url: "https://github.com/RajasekharGuptha"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@rajasekharmuppidi4"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rajasekharguptha/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/channel/UCF8fuoTagtxa5b23EFg4kZA"
+
+search: true
+
+webmaster_verifications:
+  google: 2001
+  bing: 2001
+  alexa: 2001
+  yandex: 2001
+  baidu: 2001
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
