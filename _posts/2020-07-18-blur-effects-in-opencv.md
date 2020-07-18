@@ -2,7 +2,7 @@
 layout: single
 title:  "Types of Blur in OpenCV"
 date:   2020-07-18
-excerpt: 
+excerpt: Different ways to achieve blur in opencv
 categories: OpenCV
 tagline: gaussianblur in opencv,gaussian blur in opencv,average blur in opencv,bilateral filters in opencv,blur types in opencv,different types of blur in opencv
 Author: Rajasekhar Guptha
@@ -14,7 +14,7 @@ cv2.blur(image=image,ksize=(3,3))
 ```
 average blur with ksize 3 and 7
 
-![average](/assets/images/avgkernel.png)
+![average]({{site.basurl}}/assets/images/avgkernel.png)
 
 change kernel size for blur depth
 
