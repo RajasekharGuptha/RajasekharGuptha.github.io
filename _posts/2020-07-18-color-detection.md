@@ -58,7 +58,7 @@ we have to create a mask based on hsv range for that color
 ```python
 hsvImage=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 ```
-![hsvrose](/assets\images\hsvRose.PNG)
+![hsvrose]({{site.baseurl}}/assets\images\hsvRose.PNG)
 
 now let's override onchangefunc
 + it will be called whenever any trackbar value is changed. So, get all trackbar values  in it and create a mask

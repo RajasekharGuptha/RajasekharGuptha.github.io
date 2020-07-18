@@ -66,7 +66,7 @@ To HSV
 ```python
 hsvImage=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 ```
-![hsv](/assets/images/hsvRose.PNG)
+![hsv](/assets\images\hsvRose.PNG)
 
 and many more modes available  
 ### shape function
