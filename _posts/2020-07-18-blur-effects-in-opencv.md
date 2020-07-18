@@ -14,7 +14,7 @@ cv2.blur(image=image,ksize=(3,3))
 ```
 average blur with ksize 3 and 7
 
-![average]({{site.basurl}}/assets/images/avgkernel.png)
+![average]({{site.basurl}}/assets\images\avgkernel.png)
 
 change kernel size for blur depth
 
@@ -29,7 +29,7 @@ No need to bother about kernel and kernelsize just remember them as a factor for
 ```
 again all these are factors for blur effect
 
-![gaussian](/assets/images/gauss.png)
+![gaussian](/assets\images\gauss.png)
 
 
 ### Median Blur
@@ -40,7 +40,7 @@ again all these are factors for blur effect
 median = cv2.medianBlur(image,3)
 median2 = cv2.medianBlur(image,7)
 ```
-![median](/assets/images/median.png)
+![median](/assets\images\median.png)
 
 ### Bilateral Filter
 + Bilateral Filter effective in noise removal while keeping **edges sharp**
@@ -55,5 +55,5 @@ double	sigmaSpace,
 bilateralfilter_blur = cv2.bilateralFilter(image, 9, 75, 75)
 ```
 
-![types1](/assets/images/avggaussian.png)
-![types2](/assets/images/medbilateal.png)
+![types1](/assets\images\avggaussian.png)
+![types2](/assets\images\medbilateal.png)
