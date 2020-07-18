@@ -1,3 +1,12 @@
+---
+layout: single
+title:  "Color Detection using OpenCV"
+date:   2020-07-18
+excerpt: Detecting colors in an image using OpenCV
+categories: OpenCV
+tagline: Color Detection using OpenCV,color detection,opencv,hsv,mask in opencv,trackbars,named window
+Author: Rajasekhar Guptha
+---
 
 
 For detecting a particular color using opencv we have to **HSV** values range for that color  
