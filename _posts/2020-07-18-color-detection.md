@@ -58,7 +58,7 @@ we have to create a mask based on hsv range for that color
 ```python
 hsvImage=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 ```
-![hsvrose]({{site.baseurl}}/assets\images\hsvRose.PNG)
+![hsvrose](/assets\images\hsvRose.png)
 
 now let's override onchangefunc
 + it will be called whenever any trackbar value is changed. So, get all trackbar values  in it and create a mask
@@ -81,7 +81,7 @@ def  onchangefunc(dummyArgument):
 ```
 +  adjust values of trackbars to get your required color in white and remaining in black 
 
-![likethis](/assets\images\likethis.PNG)
+![likethis](/assets\images\likeThis.PNG)
 
 
 ```python
@@ -102,6 +102,6 @@ now we have to apply this mask to hsv image to get required output
 finalImage=cv2.bitwise_and(image,image,mask=mask)
 cv2.imshow("final image",finalImage)
 ```
-![final](/assets\images\finalimage.PNG)
+![final](/assets\images\finalimage.png)
 
 Get complete source code [here](https://github.com/RajasekharGuptha/Blog/blob/master/color_detection.py)

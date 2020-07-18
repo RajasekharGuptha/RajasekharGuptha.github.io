@@ -26,19 +26,19 @@ Create 2 folders **p** (place positive image set here) and **n** (place positive
 ### step2
 Open GUI Tool 
 <figure>
-<img src="/assets/images/step1.PNG" />
+<img src="/assets/images/step1.png" />
 </figure>
 
 ### step3
 
 choose no. of training sessions
 <figure>
-<img src="/assets/images/step2.PNG" />
+<img src="/assets/images/step2.png" />
 </figure>
 
 ### step4
 <figure>
-<img src="/assets/images/step3.PNG" />
+<img src="/assets/images/step3.png" />
 </figure>
 
 That's it after traing completion of training process you can see these..
@@ -48,7 +48,7 @@ That's it after traing completion of training process you can see these..
 
 Inside **classifier** folder you can get cascade.xml
 <figure>
-<img src="/assets/images/cascadefile.PNG" />
+<img src="/assets/images/cascadefile.png" />
 </figure>
 
 

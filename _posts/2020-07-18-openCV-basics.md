@@ -46,7 +46,7 @@ we don't need to worry about kernel just change values to get desired depth of b
 blur_image=cv2.blur(image,(3,3))  # average blur
 ```
 ![blur](/assets/images/blur.PNG)  
-To know more about different types of blur available in cv2 [see this]()
+To know more about different types of blur available in cv2 [see this]({{site.baseurl}}/opencv/2020/07/18/blur-effects-in-opencv.html)
 
 
 ### color convertion
@@ -66,7 +66,7 @@ To HSV
 ```python
 hsvImage=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 ```
-![hsv](/assets\images\hsvRose.PNG)
+![hsv](/assets\images\hsvRose.png)
 
 and many more modes available  
 ### shape function
