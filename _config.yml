@@ -31,7 +31,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   𝑩𝒍𝒐𝒈.𝒍𝒐𝒈 is where you can find Blogs related to Jekyll,Git,Github,Android Development,Programming Languages,Tech and lot more.. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rajasekharguptha.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-teaser: assets/images/logo_white.png
+teaser: assets/images/teaser.png
 
 github_username:  RajasekharGuptha
 linkedin_username: rajasekharguptha
