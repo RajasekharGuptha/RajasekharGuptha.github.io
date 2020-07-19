@@ -9,8 +9,6 @@ Author: Rajasekhar Guptha
 ---
 
 
-## OpenCV Basics
-
 ### Reading Images
 imread(filename)  
 ```python
@@ -133,3 +131,16 @@ canny2=cv2.Canny(image=image,threshold1=150,threshold2=50)
 #try different threshold values
 ```
 ![canny](/assets/images/canny.PNG)
+
+## Listen to Mouse
+```python
+cv.setMouseCallback(windowName,functionToExecute)
+```
+def functionToExecute(event,x,y,flags,param):
+
++ (x,y)-pixel positions of mouse click
++ event - type of mouse action  
+   + EVENT_LBUTTONDOWN - left mouse buttton down
+   + EVENT_LBUTTONCLICK - left button click
+   
+    and there are lot more other events    
