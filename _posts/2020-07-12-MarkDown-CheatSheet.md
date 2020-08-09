@@ -8,7 +8,7 @@ header:
 ---
 
 <figure>
-  <img src="/assets/images/mdcs.png" alt="Markdown cheatsheet image">
+  <img src="/assets\images\mdcs.png" alt="Markdown cheatsheet image">
   
 </figure>
 
