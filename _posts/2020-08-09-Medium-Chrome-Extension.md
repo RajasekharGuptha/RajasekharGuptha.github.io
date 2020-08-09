@@ -3,7 +3,7 @@ layout: single
 title:  "( Chrome Extension) Read Unlimited Premium Posts In Medium by Rajasekhar Guptha"
 date:   2020-08-09
 excerpt: Headache of switching to Incognito is No more.. 
-categories: Weekend Project
+categories: WeekendProjects
 tags: "Weekend Project #1"
 Author: Rajasekhar Guptha
 header:
