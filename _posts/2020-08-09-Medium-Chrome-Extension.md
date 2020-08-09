@@ -9,7 +9,7 @@ Author: Rajasekhar Guptha
 header:
   teaser: /assets\images\mediumCrackTeaser.png
 image: 
-  path: "assets/images/mediumCrackTeaser.png"
+  path: assets/images/mediumCrackTeaser.png
   height: 100
   width: 100
 ---
