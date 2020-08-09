@@ -7,7 +7,7 @@ categories: WeekendProjects
 tags: "Weekend Project #1"
 Author: Rajasekhar Guptha
 header:
-  og_image: /assets/images/mediumCrackTeaser.png
+  og_image: assets/images/mediumCrackTeaser.png
   teaser: /assets\images\mediumCrackTeaser.png
   
 ---
