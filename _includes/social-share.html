@@ -6,7 +6,7 @@
 
   <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" class="btn btn--linkedin" onclick="window.open(this.href, 'window'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span></span></a>
 
-  <a href="https://api.whatsapp.com/send?text={{ page.url | absolute_url | url_encode }}" class="btn btn--whatsapp" onclick="window.open(this.href, 'window'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} whatsapp"><i class="fab fa-fw fa-whatsapp" aria-hidden="true"></i><span></span></a>
+  <a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%0a{{ page.url | absolute_url | url_encode }}" class="btn btn--whatsapp" onclick="window.open(this.href, 'window'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} whatsapp"><i class="fab fa-fw fa-whatsapp" aria-hidden="true"></i><span></span></a>
 
   <a href="https://www.reddit.com/submit?url={{ page.url | absolute_url | url_encode }}&title={{ page.title }}" class="btn btn--reddit" onclick="window.open(this.href, 'window'); return false;" title="{{ site.data.ui-text[site.locale].share_on_label }} Reddit"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span></span></a>
 
