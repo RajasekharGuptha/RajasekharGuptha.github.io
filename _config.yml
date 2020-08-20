@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog.log
-name: 𝑩𝒍𝒐𝒈.𝒍𝒐𝒈
+title: B.log
+name: 𝑩.𝒍𝒐𝒈
 title_separator: "|"
 author: Rajasekhar Guptha
 email: rajasekharguptha.in@example.com
-tagline: Log of Programming Blogs
-subtitle: Log of Programming Blogs
+tagline: Log of Programming..
+subtitle: Log of Programming..
 repository: RajasekharGuptha/RajasekharGuptha.github.io
 logo: "assets/images/logo_dark.png"
 description: >- # this means to ignore newlines until "baseurl:"
