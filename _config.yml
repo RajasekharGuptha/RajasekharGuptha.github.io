@@ -50,6 +50,7 @@ defaults:
       toc_label: Key Points
       toc_sticky: true
       layout: single
+      tags: true
       author_profile: true
       read_time: true
       comments: true
