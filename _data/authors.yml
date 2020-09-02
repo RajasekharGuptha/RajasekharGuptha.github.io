@@ -1,6 +1,6 @@
 Rajasekhar Guptha:
   name        : "Rajasekhar Guptha"
-  bio         : "Android Developer"
+  # bio         : "Android Developer"
   avatar      : "/assets/Rajasekhar Guptha.jpeg"
   links:
     - label: "Email"
