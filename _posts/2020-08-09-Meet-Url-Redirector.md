@@ -7,7 +7,7 @@ categories: WeekendProjects
 tags: "Weekend Project #2"
 Author: false
 header:
-  og_image: assets/images/meet_url_redirector.png
+  og_image: assets/images/meet_url_redirector.jpg
   teaser: /assets/images/meet_url_redirector.png
   
 ---
