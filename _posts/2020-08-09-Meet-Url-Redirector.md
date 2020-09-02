@@ -16,7 +16,7 @@ header:
 
 + Clone/Download this [Repo](https://github.com/RajasekharGuptha/GoogleMeet-Mail-Switcher).
 
-+ visit chrome://extensions/ this page.
++ visit chrome://extensions/ page.
 
 ![Developer Mode](/assets\images\developermodetoggle.png)
 
