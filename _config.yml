@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -28,17 +28,17 @@ subtitle: Log of Programming..
 repository: RajasekharGuptha/RajasekharGuptha.github.io
 logo: "assets/images/logo_dark.png"
 description: >- # this means to ignore newlines until "baseurl:"
-  𝑩𝒍𝒐𝒈.𝒍𝒐𝒈 is where you can find Blogs related to Jekyll,Git,Github,Android Development,Programming Languages,Tech and lot more.. 
+  𝑩𝒍𝒐𝒈.𝒍𝒐𝒈 is where you can find Blogs related to Jekyll,Git,Github,Android Development,Programming Languages,Tech and lot more..
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rajasekharguptha.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 teaser: assets/images/teaser.png
 
-github_username:  RajasekharGuptha
+github_username: RajasekharGuptha
 linkedin_username: rajasekharguptha
 instagram_username: rajasekhar_24
+twitter_username: rajasekhar_24
 medium_username: "@rajasekharmuppidi4"
 rss: rss
-
 
 defaults:
   # _posts
@@ -56,7 +56,6 @@ defaults:
       comments: true
       share: true
       related: true
-
 
 # Build settings
 remote_theme: minimal-mistakes-jekyll
@@ -76,7 +75,7 @@ social:
     - https://www.youtube.com/channel/UCF8fuoTagtxa5b23EFg4kZA
     - https://medium.com/@rajasekharmuppidi4
 
-footer:    
+footer:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -85,7 +84,7 @@ footer:
       icon: "fab fa-fw fa-instagram-square"
       url: "https://www.instagram.com/rajasekhar_24/"
     - label: "Github"
-      icon:  "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/RajasekharGuptha"
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
@@ -105,9 +104,6 @@ webmaster_verifications:
   alexa: 2001
   yandex: 2001
   baidu: 2001
-
-
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
