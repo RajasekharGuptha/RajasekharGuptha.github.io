@@ -40,6 +40,10 @@ twitter_username: rajasekhar_24
 medium_username: "@rajasekharmuppidi4"
 rss: rss
 
+twitter:
+  username: "rajasekhar_24"
+
+
 defaults:
   # _posts
   - scope:
