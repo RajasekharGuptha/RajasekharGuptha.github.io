@@ -8,6 +8,7 @@ tagline: Let's see some useful extensions that can make our web designing work m
 Author: Rajasekhar Guptha
 header:
   teaser: /assets/images/webdvscodeextensions/vscode_logo.png
+  og_image: /assets/images/webdvscodeextensions/vscode_logo.png
 ---
 
 Let's see some useful extensions that can make our web designing work much easier in our favourite Visual Studio
